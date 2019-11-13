@@ -10,8 +10,9 @@ public interface ICustomerDao {
 
     List<Customer> getAllCustomer();
     Result addCustomer(Customer customer);
-    Result removeCustomer(UUID uuid);
+    Result removeCustomer(Customer customer);
     Result updateCustomer (Customer customer);
+    Customer getCustomer(UUID uuid);
 
 
 }

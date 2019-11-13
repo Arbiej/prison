@@ -4,17 +4,10 @@
     <option name="SPLITTER_PROPORTION" value="0.49478307" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117854ca-e49b-42c1-876b-4dc8d195d068" name="Default Changelist" comment="test 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ICustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/IPrisonDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataBase/CustomerDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="117854ca-e49b-42c1-876b-4dc8d195d068" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/PrisonCellDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataBase/PrisonCellDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PrisonCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PrisonCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/IPrisonCellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/IPrisonCellService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/PrisonCellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/PrisonCellService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ICustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ICustomerDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573667709095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="w trakcie interfejsu więźnia">
+      <created>1573669311798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573669311798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
+    <MESSAGE value="w trakcie interfejsu więźnia" />
+    <option name="LAST_COMMIT_MESSAGE" value="w trakcie interfejsu więźnia" />
   </component>
 </project>
