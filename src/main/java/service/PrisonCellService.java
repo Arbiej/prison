@@ -4,7 +4,7 @@ import dao.PrisonCellDataBase;
 import model.Customer;
 import model.PrisonCell;
 import model.Result;
-import sun.rmi.runtime.Log;
+
 
 import java.util.List;
 import java.util.logging.Logger;
