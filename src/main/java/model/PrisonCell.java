@@ -1,6 +1,6 @@
 package model;
 
-import dao.PrisonCellDataBase;
+import dataBase.PrisonCellDataBase;
 
 import java.util.List;
 

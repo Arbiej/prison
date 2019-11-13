@@ -1,5 +1,3 @@
-package model;
-
 import model.Customer;
 
 import java.util.UUID;

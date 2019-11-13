@@ -1,6 +1,7 @@
 package service;
 
-import dao.PrisonCellDataBase;
+import dataBase.CustomerDataBase;
+import dataBase.PrisonCellDataBase;
 import model.Customer;
 import model.PrisonCell;
 import model.Result;
@@ -37,9 +38,10 @@ public class PrisonCellService implements  IPrisonCellService {
         }
         return result;
     }
-   // C:\kurs programator\kaminsko
 
-
-
+    @Override
+    public List<Customer> getCustomerDataBase() {
+        return CustomerDataBase.getCustomerDataBase();
+    }
 
 }
