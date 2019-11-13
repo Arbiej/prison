@@ -12,6 +12,7 @@ public interface ICustomerDao {
     Result addCustomer(Customer customer);
     Result removeCustomer(Customer customer);
     Result updateCustomer (Customer customer);
+    Result updateCustomer2 (Customer customer);
     Customer getCustomer(UUID uuid);
 
 

@@ -39,24 +39,50 @@ public class CustomerDaoImpl implements ICustomerDao {
         return result;
     }
 
-    @Override
+    @Override  // zrobić wersję z podmianą konkretnych parametrów customera i porównać działanie
     public Result updateCustomer(Customer customer) {
         Result result = new Result();
+        result.setErrorCode(-1);
         for (Customer customer1 : CustomerDataBase.getCustomerDataBase()) {
-                if (customer1.getUuid() == customer.getUuid()) {
-                    CustomerDataBase.getCustomerDataBase().remove(customer1);
-                    CustomerDataBase.getCustomerDataBase().add(customer);
+                if (customer1.getUuid().equals(customer.getUuid())) {
+                    CustomerDataBase.getCustomerDataBase().set
+                            (CustomerDataBase.getCustomerDataBase().indexOf(customer1), customer);
                     result.setErrorCode(0);
-                } else {
-                    result.setErrorCode(-1);
-                    result.setErrorDescription("Nie ma wieźnia do podmianki");
+                    break;
                 }
             }
         return result;
     }
 
     @Override
+    public Result updateCustomer2(Customer customer) {
+        Result result = new Result();
+        result.setErrorCode(-1);
+        for (Customer customer1 : CustomerDataBase.getCustomerDataBase()) {
+            if (customer1.getUuid().equals(customer.getUuid())) {
+                customer1.setBirthDay(customer.getBirthDay());
+                customer1.setName(customer.getName());
+                customer1.setSurname(customer.getSurname());
+                customer1.setSentenceList(customer.getSentenceList());
+                customer1.setSex(customer.getSex());
+                result.setErrorCode(0);
+                break;
+            }
+        }
+        return  result;
+    }
+
+    @Override
     public Customer getCustomer(UUID uuid) {
-        return null;
+        Customer customer = null;
+        for (Customer customer1 : CustomerDataBase.getCustomerDataBase()) {
+            if (customer1.getUuid().equals(uuid)) {
+                customer = customer1;
+            }
+            if (customer == null) {
+                throw new NullPointerException("Więźnia nie ma w więzieniu");
+            }
+        }
+        return customer;
     }
 }
