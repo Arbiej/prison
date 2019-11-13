@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="117854ca-e49b-42c1-876b-4dc8d195d068" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/IPrsionCellDataBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PrisonCellDataBaseDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IPrisonDataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573675268420</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="po dodaniu interfejsu dla bazy listy cel">
+      <created>1573686799798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573686799798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +166,7 @@
     <MESSAGE value="w trakcie interfejsu więźnia v2" />
     <MESSAGE value="skończona implementacja interfejsu więźnia" />
     <MESSAGE value="w trakcie testu więźnia" />
-    <option name="LAST_COMMIT_MESSAGE" value="w trakcie testu więźnia" />
+    <MESSAGE value="po dodaniu interfejsu dla bazy listy cel" />
+    <option name="LAST_COMMIT_MESSAGE" value="po dodaniu interfejsu dla bazy listy cel" />
   </component>
 </project>

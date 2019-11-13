@@ -33,7 +33,7 @@ public class Main {
         List<Customer> customerList = customerDao.getAllCustomer();
         System.out.println(customerList.size());
         System.out.println(customerList.toString());
-        System.out.println(sentence.getCoreSentenceDays(customerStart, customerStop));
+
 
 
     }
