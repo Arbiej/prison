@@ -3,6 +3,8 @@ package model;
 import java.time.LocalDate;
 import java.time.Period;
 
+import static java.time.temporal.ChronoUnit.DAYS;
+
 public class Sentence {
     private LocalDate start;
     private LocalDate stop;
@@ -22,14 +24,14 @@ public class Sentence {
     }
 
     private int calculateSentence(LocalDate start, LocalDate stop) {
-        return Period.between(start, stop).getDays();
+        return (int)DAYS.between(start, stop);
     }
 
     public LocalDate getStart() {
         return start;
     }
     public void setStart(LocalDate start) {
-        if (start !=  null && getStop() != null) {
+        if (start !=  null && this.stop != null) {
             this.coreSentenceDays = calculateSentence(start, this.stop);
         }
         this.start = start;
@@ -38,7 +40,7 @@ public class Sentence {
         return stop;
     }
     public void setStop(LocalDate stop) {
-        if (start !=  null && stop != null) {
+        if (this.start !=  null && stop != null) {
             this.coreSentenceDays = calculateSentence(this.start, stop);
         }
         this.stop = stop;

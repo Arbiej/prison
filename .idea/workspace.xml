@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="117854ca-e49b-42c1-876b-4dc8d195d068" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ICustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ICustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Sentence.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573671001781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="skończona implementacja interfejsu więźnia">
+      <created>1573673022370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573673022370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +150,18 @@
     <MESSAGE value="test 2" />
     <MESSAGE value="w trakcie interfejsu więźnia" />
     <MESSAGE value="w trakcie interfejsu więźnia v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="w trakcie interfejsu więźnia v2" />
+    <MESSAGE value="skończona implementacja interfejsu więźnia" />
+    <option name="LAST_COMMIT_MESSAGE" value="skończona implementacja interfejsu więźnia" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/Sentence.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
